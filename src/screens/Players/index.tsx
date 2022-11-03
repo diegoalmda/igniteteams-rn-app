@@ -9,7 +9,7 @@ import { PlayerCard } from '@components/PlayerCard';
 import { useState } from 'react';
 import { FlatList } from 'react-native';
 import {
-  Container, Form, HeaderList, NumbersOfPlayers
+  Container, Form, HeaderList, NumberOfPlayers
 } from './styles';
 
 export function Players() {
@@ -50,9 +50,9 @@ export function Players() {
           horizontal
         />
 
-        <NumbersOfPlayers>
+        <NumberOfPlayers>
           {players.length}
-        </NumbersOfPlayers>
+        </NumberOfPlayers>
       </HeaderList>
 
       <FlatList 
